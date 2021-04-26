@@ -1,0 +1,29 @@
+body {
+	background-color: #121212;
+}
+
+.App {
+	h1 {
+		text-align: center;
+	}
+	height: 100%;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.modal {
+	background: #121212;
+	color: #fff;
+  & > div {
+		padding: 5px 0;
+	}
+	span {
+		color: rgba(255, 255, 255, 0.356);
+	}
+	&_connected {
+		color: green!important;
+	}
+	&_disconnected {
+		color: red!important;
+	}
+}
